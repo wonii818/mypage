@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>결혼 청첩장</title>
+    <style>
+        
+        * {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+        }
+        body, h1, h2, h3, p, a {
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .wrap {
+            width: 350px;
+            margin: auto;
+        }
+        h1 {
+            background-color: #D2DAFF;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            font-weight: 500;
+        }
+        .pic {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 30px;
+        }
+        .pic > h2 {
+            color:#D2DAFF;
+            letter-spacing: 3px;
+        }
+        .pic > img {
+            width: 250px;
+            border: 3px solid #D2DAFF;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .pic > span {
+            color:#D2DAFF;
+            letter-spacing: 3px;
+        }
+        .name {
+            color: #D2DAFF;
+            font-size: 24px;
+            font-weight: 500;
+
+            border-top: 1px solid #D2DAFF;
+            border-bottom: 1px solid #D2DAFF;
+
+            width: 200px;
+            margin: 30px auto 30px auto;
+
+            text-align: center;
+        }
+        .main {
+            background-color: #D2DAFF;
+            color: white;
+            padding: 20px;
+        }
+        .inv {
+            font-size: 20px;
+            text-align: center;
+        }
+        .msg {
+            line-height: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .place {
+            text-align: center;
+        }
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .bottom > p {
+            color: #D2DAFF;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .bottom > input {
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .bottom > textarea {
+            width: 250px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .bottom > button {
+            width: 150px;
+            height: 40px;
+
+            background-color: #D2DAFF;
+            color: white;
+            
+            border: none;
+            border-radius: 8px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>민영이와 보검이가 하나가 됩니다.</h1>
+        <div class="pic">
+            <h2>Our Wedding Day</h2>
+            <img src="https://img.hankyung.com/photo/202206/BF.30459596.1.jpg">
+            <span>01.24.TUE.PM.07:30</span>
+        </div>
+        <div class="name">
+            유민영 & 박보검
+        </div>
+        <div class="main">
+            <p class="inv">INVITATION</p>
+<p class="msg">
+            서로의 이름을 부르는 것만으로도<br/>
+            사랑의 깊이를 확인할 수 있는 두 사람이 <br/>
+            꽃과 나무처럼 걸어와서<br/>
+            서로의 모든 것이 되기 위해<br/>
+            오랜 기다림 끝에 혼례식을 치르는 날<br/>
+            세상은 더욱 아름다워라<br/><br/>
+        </p>
+        <p class="place">
+            2023. 01. 24. TUE. PM 07:30<br/>
+            신라호텔 다이너스티 홀</p>
+        </div>
+        <div class="bottom">
+            <p>축하메시지를 남겨주세요.</p></br>
+            <input type="text" placeholder="이름"></br>
+            <textarea placeholder="메시지를 남겨주세요."></textarea></br>
+            <button type="submit">메시지 남기기</button>
+        </div>
+    </div>
+</body>
+</html>
